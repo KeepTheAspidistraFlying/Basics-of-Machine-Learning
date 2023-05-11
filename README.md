@@ -4,7 +4,7 @@ very basic but essential info on ML
 Hey Guyz;
 
 i am going to update this file with new info everytime i find something interesting, so it might get more detailed.
-if have any question or suggestion, plz contact me via my email; Hajiahmadiparisa@yahoo.com
+if u have any question or suggestion, plz contact me via my email; Hajiahmadiparisa@yahoo.com
 
 consider these 2 types of learning;
 
