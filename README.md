@@ -18,9 +18,13 @@ a] classification: what class something belongs to
 
 b] regression: predicting a numerical value
 
+***************************************************************************************************************************
+
 every algorithm is specified for a type of learning. 
 
 for instance; "Logestic Regression", it is used for classification problems. (dont mix the name of the algorithm with its type of problem.) I used this algorithm in Titanic Survival Prediction, Breast Cancer Prediction & Bob the Builder. u can find these projects in my repos by the same name.
+
+***************************************************************************************************************************
 
 u can use different programming languages for implementation of these algorithms but I prefer Python.
 I find Python packages very useful; 
@@ -32,3 +36,16 @@ numpy; computation of numerical data/ manipulating lists & tables of numerical d
 matplotlib; graphing data
 
 scikit-learn; machine learning models (one of the best documented Python modules)
+
+***************************************************************************************************************************
+
+there are 2 commonly metrics for classification; Precision and Recall
+
+Precision; TP/(TP+FP)
+
+Recall; TP/(TP+FN)
+
+TP:True Positive/// FP:False Positive/// FN:False Negative/// TN:True Negative
+
+the values of Precision & Recall that we are aiming for depends on the dataset and the application.
+
