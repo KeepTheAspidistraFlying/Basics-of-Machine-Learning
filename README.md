@@ -49,3 +49,4 @@ TP:True Positive/// FP:False Positive/// FN:False Negative/// TN:True Negative
 
 the values of Precision & Recall that we are aiming for depends on the dataset and the application.
 
+F1= 2*(Precision*Recall)/(Precision+Recall)
