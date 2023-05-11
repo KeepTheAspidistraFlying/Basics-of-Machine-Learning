@@ -20,7 +20,7 @@ b] regression: predicting a numerical value
 
 every algorithm is specified for a type of learning. 
 
-for instance; "Logestic Regression", it is used for classification problems. (dont mix the name of the algorithm with its type of problem.) I used this algorithm in Titanic Survival Prediction and Breast Cancer Prediction. u can find these projects in my repos by the same name.
+for instance; "Logestic Regression", it is used for classification problems. (dont mix the name of the algorithm with its type of problem.) I used this algorithm in Titanic Survival Prediction, Breast Cancer Prediction & Bob the Builder. u can find these projects in my repos by the same name.
 
 u can use different programming languages for implementation of these algorithms but I prefer Python.
 I find Python packages very useful; 
