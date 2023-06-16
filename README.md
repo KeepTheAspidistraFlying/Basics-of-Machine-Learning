@@ -58,3 +58,16 @@ pay attention the matrix shown by python is in this order:
 TN      FP
 
 FN      TP
+
+***************************************************************************************************************************
+
+so, we've talked about logestic regression in the previous section.
+we used data to build the model and then we checked the model with the same data and it did well.
+but how well our model will do on new data?? if it does poorly, then "overfitting" happend.
+note that the more "features" we have there's a higher chance of overfitting.
+
+so what to do??
+
+simple!! we devide our dataset into 2 sets; we use the first set to build a model, meaning; we train with this set. then we test the model with the second set that our model haven't seen yet. the first set is called "training set" and the second is "test set".
+(we usually use 70%-80% of data for training and 20%-30% for test.)
+u can use scikit-learn in Python to do training and testing.
