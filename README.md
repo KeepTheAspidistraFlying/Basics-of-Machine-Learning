@@ -50,3 +50,11 @@ TP:True Positive/// FP:False Positive/// FN:False Negative/// TN:True Negative
 the values of Precision & Recall that we are aiming for depends on the dataset and the application.
 
 F1= 2*(Precision*Recall)/(Precision+Recall)
+
+we use a matrix called "confusion matrix" to show the 4 values of confusion (TP,FP,TN,FN).
+we can import confusion_matrix from sklearn.metrics to see these 4 values.
+pay attention the matrix shown by python is in this order:
+
+TN      FP
+
+FN      TP
