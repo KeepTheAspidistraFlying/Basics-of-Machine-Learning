@@ -22,7 +22,7 @@ b] regression: predicting a numerical value
 
 every algorithm is specified for a type of learning. 
 
-for instance; "Logestic Regression", it is used for classification problems. (dont mix the name of the algorithm with its type of problem.) I used this algorithm in Titanic Survival Prediction, Breast Cancer Prediction & Bob the Builder. u can find these projects in my repos by the same name.
+for instance; "Logistic Regression", it is used for classification problems. (dont mix the name of the algorithm with its type of problem.) I used this algorithm in Titanic Survival Prediction, Breast Cancer Prediction & Bob the Builder. u can find these projects in my repos by the same name.
 
 ***************************************************************************************************************************
 
@@ -61,7 +61,7 @@ FN      TP
 
 ***************************************************************************************************************************
 
-so, we've talked about logestic regression in the previous section.
+so, we've talked about logistic regression in the previous section.
 we used data to build the model and then we checked the model with the same data and it did well.
 but how well our model will do on new data?? if it does poorly, then "overfitting" happend.
 note that the more "features" we have there's a higher chance of overfitting.
