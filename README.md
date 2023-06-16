@@ -49,6 +49,10 @@ TP:True Positive/// FP:False Positive/// FN:False Negative/// TN:True Negative
 
 the values of Precision & Recall that we are aiming for depends on the dataset and the application.
 
+in the Titanic example, assume we consider those whose survival rate is more than 80% will survive. in this case we will have less survivals but the certainty is much higher. in this case, precision is high.
+
+now assume we consider those whose survival rate is more than 45% will survive. in this case there is a lower chance of getting FN, but the certainty of our guess is also lower. in this case, recall is high.
+
 F1= 2*(Precision*Recall)/(Precision+Recall)
 
 we use a matrix called "confusion matrix" to show the 4 values of confusion (TP,FP,TN,FN).
