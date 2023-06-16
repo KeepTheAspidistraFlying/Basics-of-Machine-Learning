@@ -70,5 +70,7 @@ so what to do??
 
 simple!! we devide our dataset into 2 sets; we use the first set to build a model, meaning; we train with this set. then we test the model with the second set that our model haven't seen yet. the first set is called "training set" and the second is "test set".
 (we usually use 70%-80% of data for training and 20%-30% for test.)
+
 u can use scikit-learn in Python to do training and testing.
+
 u can also check Titanic Survival Prediction repo, I explained how to use Python for train and test. (Titanic_Survival_Prediction_Train&Test.zip)
