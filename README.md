@@ -82,6 +82,8 @@ to calculate the value of specifity you can use the first value of the second ar
 
 (specificity is the recall of negative class)
 
+check Titanic Survival Prediction repo,"Titanic_Survival_Prediction_Sensitivity&Specificity.zip"
+
 ***************************************************************************************************************************
 
 so, we've talked about logistic regression in the previous section.
