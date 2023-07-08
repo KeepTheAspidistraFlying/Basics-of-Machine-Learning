@@ -78,6 +78,10 @@ specifity=TN/(TN+FP)
 
 our goal is to maximize these 2 values. (generally when one goes up the other gets lower)
 
+to calculate the value of specifity you can use the first value of the second array of "precision_recall_fscore_support" imported from sklearn.metrics
+
+(specifity is the recall of negative class)
+
 ***************************************************************************************************************************
 
 so, we've talked about logistic regression in the previous section.
