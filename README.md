@@ -70,17 +70,17 @@ it means our 1s are gonna have a higher certainty but fewer 1s. (precision highe
 
 each choice of a threshold is a different model.
 an ROC (=Receiver Operating Characteristic) curve is a graph showing all of the possible models and their performances.
-an ROC curve is a graph of "sensivity" vs. "specifity".
+an ROC curve is a graph of "sensivity" vs. "specificity".
 
 sensivity= recall= TP/(TP+FN)
 
-specifity=TN/(TN+FP)
+specificity=TN/(TN+FP)
 
 our goal is to maximize these 2 values. (generally when one goes up the other gets lower)
 
 to calculate the value of specifity you can use the first value of the second array of "precision_recall_fscore_support" imported from sklearn.metrics
 
-(specifity is the recall of negative class)
+(specificity is the recall of negative class)
 
 ***************************************************************************************************************************
 
