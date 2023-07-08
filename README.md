@@ -63,6 +63,21 @@ TN      FP
 
 FN      TP
 
+alright, now remember the titanic survival, we assumed if the possibility of survival is over 50%, show 1 and if its less show 0. here, 50% is our threshold.
+if we use 75% instead of 50%, we actually made the threshold higher.
+what does it mean??
+it means our 1s are gonna have a higher certainty but fewer 1s. (precision higher, recall lower).
+
+each choice of a threshold is a different model.
+an ROC (=Receiver Operating Characteristic) curve is a graph showing all of the possible models and their performances.
+an ROC curve is a graph of "sensivity" vs. "specifity".
+
+sensivity= recall= TP/(TP+FN)
+
+specifity=TN/(TN+FP)
+
+our goal is to maximize these 2 values. (generally when one goes up the other gets lower)
+
 ***************************************************************************************************************************
 
 so, we've talked about logistic regression in the previous section.
