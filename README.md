@@ -84,6 +84,8 @@ to calculate the value of specifity you can use the first value of the second ar
 
 check Titanic Survival Prediction repo,"Titanic_Survival_Prediction_Sensitivity&Specificity.zip"
 
+you can change the value of threshold by changing model.predict(X_test) to model.pridict_proba(X_test)[:,1]> A number between 0 and 1 (your new threshold).
+
 ***************************************************************************************************************************
 
 so, we've talked about logistic regression in the previous section.
