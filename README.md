@@ -121,7 +121,7 @@ u can see Titanic repo AUC_SCORE to better understand the concept of auc and its
 
 in test and train we devided our whole set into 2sets and then built the model with the train set and evaluated it with test set. the best model is the one that is built with whole datapoints and the whole purpose of test and train set is evaluation. as we saw before, if we use different train and test sets we find a new value for accuracy, precision, recall and f1, which is not an ideal evaluation. so we do the train and test k times and report the mean of the metrics measures for evaluation. we call this "K-fold cross validation".
 
-note that this is ONLY for avaluation purposes. NOT building the model.
+note that this is ONLY for evaluation purposes. NOT building the model.
 
 coding k-fold cross validation is straightforward. u can use "from sklearn.model_selection import KFold".
 
