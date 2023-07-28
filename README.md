@@ -154,3 +154,5 @@ u can also check Titanic Survival Prediction repo, I explained how to use Python
 so far we talked about logistic regression which is defined by the coefficients that define the line. These coefficients are called parameters. Since the model is defined by these parameters, Logistic Regression is a parametric machine learning algorithm.
 
 now we wanna talk about " Decision Trees", which are an example of a nonparametric machine learning algorithm.
+
+It is basically a flow chart of questions that you answer about a datapoint until you get to a prediction.
