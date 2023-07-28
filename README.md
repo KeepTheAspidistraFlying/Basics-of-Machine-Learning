@@ -119,6 +119,18 @@ the AUC does not measure the performance of a single model. It gives a general s
 
 u can see Titanic repo AUC_SCORE to better understand the concept of auc and its code.(python)
 
+in test and train we devided our whole set into 2sets and then built the model with the train set and evaluated it with test set. the best model is the one that is built with whole datapoints and the whole purpose of test and train set is evaluation. as we saw before, if we use different train and test sets we find a new value for accuracy, precision, recall and f1, which is not an ideal evaluation. so we do the train and test k times and report the mean of the metrics measures for evaluation. we call this "K-fold cross validation".
+
+note that this is ONLY for avaluation purposes. NOT building the model.
+
+coding k-fold cross validation is straightforward. u can use "from sklearn.model_selection import KFold".
+
+kf=KFold(n_splits= 5, shuffle=True)
+
+list(kf.split(X))
+
+use list() to convert generator to list. u can use any number instead of 5 but we usually use 5.
+
 ***************************************************************************************************************************
 
 so, we've talked about logistic regression in the previous section.
@@ -134,3 +146,11 @@ simple!! we devide our dataset into 2 sets; we use the first set to build a mode
 u can use scikit-learn in Python to do training and testing.
 
 u can also check Titanic Survival Prediction repo, I explained how to use Python for train and test. (Titanic_Survival_Prediction_Train&Test.zip)
+
+***************************************************************************************************************************
+
+***************************************************************************************************************************
+
+so far we talked about logistic regression which is defined by the coefficients that define the line. These coefficients are called parameters. Since the model is defined by these parameters, Logistic Regression is a parametric machine learning algorithm.
+
+now we wanna talk about " Decision Trees", which are an example of a nonparametric machine learning algorithm.
