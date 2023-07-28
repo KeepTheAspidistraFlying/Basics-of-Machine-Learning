@@ -101,6 +101,24 @@ step2: call roc_curve function
 
                3. the threshold (wont be needed in graph)
 
+As we don’t use the threshold values to build the graph, the graph does not tell us what threshold would yield each of the possible models.
+
+The ROC curve shows the performance, not of a single model, but of many models. Each choice of threshold is a different model.
+
+How to choose between these models will depend on the specifics of our situation.
+
+The closer the curve gets to the upper left corner, the better the performance.
+
+The line should never fall below the diagonal line as that would mean it performs worse than a random model.
+
+now, we know the curve that is above the other one is better. so the area under the better curve is higher.
+
+we can use AUC (area under curve) to decide which model is better. use (roc_auc_score(y_test, y_pred_proba[:,1]).
+
+the AUC does not measure the performance of a single model. It gives a general sense of how well the Logistic Regression model is performing.
+
+u can see Titanic repo AUC_SCORE to better understand the concept of auc and its code.(python)
+
 ***************************************************************************************************************************
 
 so, we've talked about logistic regression in the previous section.
