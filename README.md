@@ -86,6 +86,21 @@ check Titanic Survival Prediction repo,"Titanic_Survival_Prediction_Sensitivity&
 
 you can change the value of threshold by changing model.predict(X_test) to model.pridict_proba(X_test)[:,1]> A number between 0 and 1 (your new threshold).
 
+as mentioned each threshold is a new model. we can build a ROC curve by roc_curve function from sckit_learn.
+this function takes the true target values and the predicted probabilities from our model.
+
+step1: use predict_proba method
+
+step2: call roc_curve function
+
+         it returns:
+
+               1. an array of FP rates: 1-Specificity (X_axis)
+
+               2. an array of TP rates: Sensitivity (Y_axis)
+
+               3. the threshold (wont be needed in graph)
+
 ***************************************************************************************************************************
 
 so, we've talked about logistic regression in the previous section.
