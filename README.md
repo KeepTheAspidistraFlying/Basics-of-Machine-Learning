@@ -156,3 +156,34 @@ so far we talked about logistic regression which is defined by the coefficients 
 now we wanna talk about " Decision Trees", which are an example of a nonparametric machine learning algorithm.
 
 It is basically a flow chart of questions that you answer about a datapoint until you get to a prediction.
+
+Gini impurity is a measure of how pure a set is.
+
+for example in Titanic survival prediction, we calculate the gini impurity on a subset of our data based on how many datapoints in the set are passengers that survived and how many are passengers who didn’t survive. it will be a value between 0 and 0.5 where 0.5 is completely impure (50% survived and 50% didn’t survive) and 0 is completely pure (100% in the same class).
+
+(p is the percent of passengers who survived. Thus (1-p) is the percent of passengers who didn’t survive.)
+
+GINI=2(p)(1-p)
+
+Entropy is another measure of purity.
+for example in Titanic survival prediction, it will be a value between 0 and 1 where 1 is completely impure (50% survived and 50% didn’t survive) and 0 is completely pure (100% the same class).
+
+entropy= -[ p log(p)[2] + (1-p) log(1-p)[2] ]
+
+it’s not obvious whether gini or entropy is a better choice.it often won’t make a difference, but you can always cross validate to compare a Decision Tree with entropy and a Decision Tree with gini to see which performs better.
+
+Information Gain= H(S) - H(A)*|A|/|S| - H(B)*|B|/|S|
+
+H:impurity measure(entropy or gini)
+
+S:original dataset
+
+A&B:2 splitting sets from S
+
+the greater info. gain the better it is.
+
+To determine how to do the first split, we go over every possible split and calculate the information gain if we used that split.
+
+in Titanic example, for numerical features like Age, PClass and Fare, we try every possible threshold. Splitting on the Age threshold of 50 means that datapoints with Age<=50 are one group and those with Age>50 are the other. so since there are 89 different ages in our dataset, we have 88 different splits to try for the age feature!
+
+Just like with Logistic Regression, scikit-learn has a Decision Tree class. The code for building a Decision Tree model is very similar to building a Logistic Regression model, fit (to train the model), score (to calculate the accuracy score) and predict (to make predictions).
