@@ -187,3 +187,7 @@ To determine how to do the first split, we go over every possible split and calc
 in Titanic example, for numerical features like Age, PClass and Fare, we try every possible threshold. Splitting on the Age threshold of 50 means that datapoints with Age<=50 are one group and those with Age>50 are the other. so since there are 89 different ages in our dataset, we have 88 different splits to try for the age feature!
 
 Just like with Logistic Regression, scikit-learn has a Decision Tree class. The code for building a Decision Tree model is very similar to building a Logistic Regression model, fit (to train the model), score (to calculate the accuracy score) and predict (to make predictions).
+
+The default impurity criterion in scikit-learn’s Decision Tree algorithm is the Gini Impurity. However, they’ve also implemented entropy and you can choose which one you’d like to use when you create the DecisionTreeClassifier object.
+
+for creating a png image of your graph, use scikit-learn's export_graphviz function.
