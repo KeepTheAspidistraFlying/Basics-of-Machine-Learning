@@ -217,3 +217,4 @@ Scikit-learn has implemented quite a few techniques for pre-pruning. In particul
 
 from sklearn.model_selection import GridSearchCV
 
+now let us talk about computation; Decision Trees are slow to train and fast to predict. Interpretability is the biggest advantage of Decision Trees.
