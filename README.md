@@ -191,3 +191,29 @@ Just like with Logistic Regression, scikit-learn has a Decision Tree class. The 
 The default impurity criterion in scikit-learn’s Decision Tree algorithm is the Gini Impurity. However, they’ve also implemented entropy and you can choose which one you’d like to use when you create the DecisionTreeClassifier object.
 
 for creating a png image of your graph, use scikit-learn's export_graphviz function.
+
+remember overfitting?? Decision Trees are incredibly prone to overfitting. 
+
+In order to solve these issues, we do what’s called pruning the tree. This means we make the tree smaller with the goal of reducing overfitting.
+
+There are two types of pruning: pre-pruning & post-pruning.
+
+1. In pre-pruning, we stop building before the tree is too big.
+
+2. In post-pruning we build the whole tree and then we review the tree and decide which leaves to remove to make the tree smaller.
+
+Pre-Pruning techniques:
+
+1. Max depth
+
+2. Leaf size
+
+3.   Number of leaf nodes
+
+
+There’s no hard science as to which pre-pruning method will yield better results. In practice, we try a few different values for each parameter and cross validate to compare their performance.
+
+Scikit-learn has implemented quite a few techniques for pre-pruning. In particular, we will look at three of the parameters: max_depth, min_samples_leaf, and max_leaf_nodes. In order to decide on which to use, we use cross validation and compare metrics. scikit-learn has a grid search class built in that will help us.
+
+from sklearn.model_selection import GridSearchCV
+
