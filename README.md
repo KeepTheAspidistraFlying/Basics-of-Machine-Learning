@@ -218,3 +218,16 @@ Scikit-learn has implemented quite a few techniques for pre-pruning. In particul
 from sklearn.model_selection import GridSearchCV
 
 now let us talk about computation; Decision Trees are slow to train and fast to predict. Interpretability is the biggest advantage of Decision Trees.
+
+***************************************************************************************************************************
+
+***************************************************************************************************************************
+
+Random Forest
+
+
+A random forest is an example of an ensemble because it uses multiple machine learning models to create a single model.
+
+ The goal of random forests is to take the advantages of decision trees while mitigating the variance issues.
+
+ 
