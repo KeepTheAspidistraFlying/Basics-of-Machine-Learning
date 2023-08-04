@@ -230,4 +230,12 @@ A random forest is an example of an ensemble because it uses multiple machine le
 
  The goal of random forests is to take the advantages of decision trees while mitigating the variance issues.
 
+BOOTSTRAPPING
  
+ A bootstrapped sample is a random sample of datapoints where we randomly select with replacement datapoints from our original dataset to create a dataset of the same size. Randomly selecting with replacement means that we can choose the same datapoint multiple times. We use bootstrapping to mimic creating multiple samples.
+
+ Bootstrap Aggregation (or Bagging) is a technique for reducing the variance in an individual model by creating an ensemble from multiple models built on bootstrapped samples. Bagging Decision Trees is a way of reducing the variance in the model.
+
+ With bagged decision trees, the trees may still be too similar to have fully created the ideal model. They are built on different resamples, but they all have access to the same features. Thus we will add some restrictions to the model when building each decision tree so the trees have more variation. We call this decorrelating the trees. If we bag these decision trees, we get a random forest.
+
+Each decision tree within a random forest is probably worse than a standard decision tree. But when we average them we get a very strong model!
