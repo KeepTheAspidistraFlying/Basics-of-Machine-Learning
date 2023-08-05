@@ -239,3 +239,14 @@ BOOTSTRAPPING
  With bagged decision trees, the trees may still be too similar to have fully created the ideal model. They are built on different resamples, but they all have access to the same features. Thus we will add some restrictions to the model when building each decision tree so the trees have more variation. We call this decorrelating the trees. If we bag these decision trees, we get a random forest.
 
 Each decision tree within a random forest is probably worse than a standard decision tree. But when we average them we get a very strong model!
+
+now lets get to coding;  from sklearn.ensemble import RandomForestClassifier
+
+Since a random forest is made up of decision trees, we have all the same tuning parameters for prepruning as we did for decision trees: max_depth, min_samples_leaf, and max_leaf_nodes. but in Random Forest generally generally overfitting isnt an issue.
+
+lets talk about 2 new parameters; : n_estimators (the number of trees) and max_features (the number of features to consider at each split).
+
+Increasing the number trees will increase performance until a point where it levels out. The more trees, however, the more complicated the algorithm. A more complicated algorithm is more resource intensive to use. Generally it is worth adding complexity to the model if it improves performance but we do not want to unnecessarily add complexity. we use Elbow Graph to optimize performance without adding unnecessary complexity.
+
+
+
