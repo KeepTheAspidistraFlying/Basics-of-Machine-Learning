@@ -248,5 +248,7 @@ lets talk about 2 new parameters; : n_estimators (the number of trees) and max_f
 
 Increasing the number trees will increase performance until a point where it levels out. The more trees, however, the more complicated the algorithm. A more complicated algorithm is more resource intensive to use. Generally it is worth adding complexity to the model if it improves performance but we do not want to unnecessarily add complexity. we use Elbow Graph to optimize performance without adding unnecessary complexity.
 
+we need to select some features, why?? it enables us to train a model faster; it reduces the complexity of a model thus makes it easier to interpret.
 
+so we can use feature_importances_ by pandas. In our dataset, we happen to notice that features with "worst" seem to have higher importances.
 
