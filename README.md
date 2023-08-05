@@ -250,5 +250,5 @@ Increasing the number trees will increase performance until a point where it lev
 
 we need to select some features, why?? it enables us to train a model faster; it reduces the complexity of a model thus makes it easier to interpret.
 
-so we can use feature_importances_ by pandas. In our dataset, we happen to notice that features with "worst" seem to have higher importances.
+so we can use feature_importances_ from pandas. In our dataset, we happen to notice that features with "worst" seem to have higher importances.
 
