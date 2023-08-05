@@ -252,3 +252,16 @@ we need to select some features, why?? it enables us to train a model faster; it
 
 so we can use feature_importances_ from pandas. In our dataset, we happen to notice that features with "worst" seem to have higher importances.
 
+***************************************************************************************************************************
+
+***************************************************************************************************************************
+
+Neural Networks
+
+Neural Networks are incredibly popular and powerful machine learning models. They often perform well in cases where we have a lot of features as they automatically do feature engineering without requiring domain knowledge to restructure the features.
+
+computation in each node or neuron is like this:
+
+w1x1+w2x2+b ----> Activation Function (Sigmoid or tanh or ReLU)  ----> the output is in a fixed range.
+
+each neuron cannot do much by itself but as a part of a network, theyre powerful.
