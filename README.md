@@ -265,3 +265,28 @@ computation in each node or neuron is like this:
 w1x1+w2x2+b ----> Activation Function (Sigmoid or tanh or ReLU)  ----> the output is in a fixed range.
 
 each neuron cannot do much by itself but as a part of a network, theyre powerful.
+
+backpropagation: the process for updating the coeff. in a neural network
+
+Sometimes in order to test models, it is helpful to create an artificial dataset. We can create a dataset of the size and complexity needed. Thus we can make a dataset that is easier to work with than a real life dataset. This can help us understand how models work before we apply them to messy real world data.
+We will use the make_classification function in scikit-learn. It generates a feature matrix X and target array y. some of the parameters:
+
+• n_samples: number of datapoints
+
+• n_features: number of features
+
+• n_informative: number of informative features
+
+• n_redundant: number of redundant features
+
+• random_state: random state to guarantee same result every time
+
+MLPClassifier: Multi-layer Perceptron classifier which in the name itself connects to a Neural Network. Unlike other classification algorithms such as Support Vectors or Naive Bayes Classifier, MLPClassifier relies on an underlying Neural Network to perform the task of classification.
+
+This model optimizes the log-loss function using LBFGS or stochastic gradient descent.
+
+u can see its parameters in the link below:
+
+https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html
+
+
