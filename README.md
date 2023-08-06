@@ -289,4 +289,10 @@ u can see its parameters in the link below:
 
 https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html
 
+***************************************************************************************************************************
 
+***************************************************************************************************************************
+
+The MNIST Dataset: (Modified, National Institute of Standards and Technology)
+
+This is a database of images of handwritten digits. We will build a classifier to determine which digit is in the image.
