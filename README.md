@@ -7,7 +7,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/KeepTheAspidistraFlying](https://github.com/KeepTheAspidistraFlying)
 
-- 📝 I regularly write articles on [Machine Learning algorithms and their applications.](Machine Learning algorithms and their applications.)
+- 📝 I regularly write articles on [Machine Learning algorithms and their applications.]
 
 - 📫 How to reach me **Hajiahmadiparisa@yahoo.com**
 
