@@ -1,6 +1,4 @@
 # Basics-of-Machine-Learning
-very basic but essential info on ML
-
 
 <h1 align="center">Hi 👋, I'm Parisa Haji Ahmadi</h1>
 <h3 align="center">A Math enthusiast from Iran.</h3>
