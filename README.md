@@ -1,6 +1,7 @@
 # Basics-of-Machine-Learning
 
 Hi;
+  
   👋, I'm Parisa Haji Ahmadi; A Math enthusiast from Iran.
 
 - 🌱 I’m currently learning **Machine Learning and Data Science.**
