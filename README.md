@@ -18,7 +18,6 @@ Hi; I'm Parisa Haji Ahmadi; A Math enthusiast.
 i am going to update this file with new info everytime i find something interesting, so it might get more detailed.
 if u have any question or suggestion, plz contact me via my email; hajiahmadiparisa@yahoo.com
 
-
 ***************************************************************************************************************************
 
 consider these 2 types of learning;
